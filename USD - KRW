@@ -1,0 +1,8 @@
+amount = int(input("Amount: "))
+currency = input("usd or krw: ")
+if currency == "usd":
+    conversion = amount * 1338
+    print("Amount in krw is: " + str(conversion))
+else:
+    conversion = amount / 1338
+    print("Amount in usd is: " + str(conversion))
